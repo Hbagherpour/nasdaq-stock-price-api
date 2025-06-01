@@ -19,13 +19,14 @@ You can try the API here:
 Send a GET request to: /price/{symbol}
 ### Example:
 
-GET /price/TSLA
+GET /price/NDAQ
+
 https://nasdaq-stock-price-api.onrender.com/price/NDAQ
 Response: {"ticker":"NDAQ","price":83.54}
 
 ## Test Locally
-- Install dependencies
+- Install dependencies: 
 pip install -r requirements.txt
 
-- Run the server
+- Run the server: 
 uvicorn main:app --reload
