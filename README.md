@@ -24,8 +24,8 @@ https://nasdaq-stock-price-api.onrender.com/price/NDAQ
 Response: {"ticker":"NDAQ","price":83.54}
 
 ## Test Locally
-# Install dependencies
+- Install dependencies
 pip install -r requirements.txt
 
-# Run the server
+- Run the server
 uvicorn main:app --reload
