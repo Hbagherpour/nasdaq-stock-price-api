@@ -22,6 +22,7 @@ Send a GET request to: /price/{symbol}
 GET /price/NDAQ
 
 https://nasdaq-stock-price-api.onrender.com/price/NDAQ
+
 Response: {"ticker":"NDAQ","price":83.54}
 
 ## Test Locally
